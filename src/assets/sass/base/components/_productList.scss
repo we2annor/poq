@@ -1,0 +1,22 @@
+.product-list {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minMax(30rem, 1fr));
+    grid-template-rows: repeat(1, min-content);
+    gap: 4rem;
+    padding: 2rem;
+    background-color: $color-background-light-grey;
+
+    &__selected-btn {
+        padding: 1.2rem 2rem;
+        margin: 2rem;
+        background-color: #881184;
+        color: #fff;
+        font-size: 1.6rem;
+        border-radius: .4rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+

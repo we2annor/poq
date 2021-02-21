@@ -1,0 +1,27 @@
+input {
+    appearance: none;
+    outline: none;
+    border: 1px solid #b8b8b8;
+}
+input.remove-checkbox {
+    padding: .7rem;
+}
+
+input.remove-checkbox:active {
+    border: 1px solid green;
+}
+
+input.remove-checkbox:checked {
+    background-color: #881184;
+    border: 1px solid #881184;
+    outline: none;
+}
+
+input.remove-checkbox:checked::after{
+    content:'\2714';
+    color: #ffffff;
+    font-size: 1rem;
+    position: absolute;
+    top: .2rem;
+    left: .4rem;
+}

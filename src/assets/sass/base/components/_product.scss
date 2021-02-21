@@ -1,0 +1,73 @@
+.product {
+    position: relative;
+
+    &__checkBox {
+        z-index: 10;
+        position: absolute;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    &__img-wrapper {
+        width: 100%;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    &__info {
+        padding: 1rem;
+        background-color: #ffffff;
+        min-height: 13rem;
+
+        &--name {
+            font-size: 1.6rem;
+        }
+
+        &--price {
+            padding: 1rem 0;
+            font-size: 1.4rem;
+
+            span {
+                color: #ff0000;
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    &__promotionBadge {
+        padding: 1rem;
+        background-color: #f09494;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.6rem;
+        margin: 0;
+        position: absolute;
+        bottom: .2rem;
+        left: 0;
+        width: 100%;
+        opacity: .7;
+    }
+
+    .in-stock {
+        color: #056d05;
+        font-size: 1.4rem;
+    }
+
+    .out-of-stock {
+        color: #ff0000;
+    }
+
+    .low-on-stock {
+        color: #c29009;
+    }
+
+    .low-on-stock, .out-of-stock {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+    }
+}
