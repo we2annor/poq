@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When Address Mounts Matches snapshot 1`] = `
+<div
+  className="product-list"
+>
+  <div>
+    <div
+      className="product"
+    >
+      <span
+        className="product__checkBox"
+      >
+        <input
+          checked={false}
+          className="remove-checkbox"
+          id=""
+          name=""
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </span>
+      <div
+        className="product__img-wrapper"
+      >
+        <img
+          className="sc-bdfBwQ iBymIc"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+        />
+      </div>
+      <div
+        className="product__info"
+      >
+        <div
+          className="product__info--name"
+        />
+        <div
+          className="product__info--price"
+        >
+          £
+           
+          <span>
+            £
+          </span>
+        </div>
+        <div>
+          
+        </div>
+        <span>
+          <span
+            className="out-of-stock"
+          >
+            Out of stock
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`When ProductList Mounts Matches snapshot 1`] = `
+<div
+  className="product-list"
+>
+  <div>
+    <div
+      className="product"
+    >
+      <span
+        className="product__checkBox"
+      >
+        <input
+          checked={false}
+          className="remove-checkbox"
+          id=""
+          name=""
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </span>
+      <div
+        className="product__img-wrapper"
+      >
+        <img
+          className="sc-bdfBwQ iBymIc"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+        />
+      </div>
+      <div
+        className="product__info"
+      >
+        <div
+          className="product__info--name"
+        />
+        <div
+          className="product__info--price"
+        >
+          £
+           
+          <span>
+            £
+          </span>
+        </div>
+        <div>
+          
+        </div>
+        <span>
+          <span
+            className="out-of-stock"
+          >
+            Out of stock
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

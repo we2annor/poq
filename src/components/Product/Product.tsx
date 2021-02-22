@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Product } from "../../reducers/productReducer";
 import CheckBox from "../CheckBox/CheckBox";
+import { LazyLoad } from "../LazyLoad/LazyLoad";
 
 interface Props {
   product: Product;
@@ -33,7 +34,7 @@ const ProductItem: React.FC<Props> = ({ product, getSelectedProducts }) => {
         />
       </span>
       <div className='product__img-wrapper'>
-        <img src={product.imageUrl} alt={product.description} />
+        <LazyLoad src={product.imageUrl} alt={product.name} />
         {product.promotionBadge && (
           <div className='product__promotionBadge'>
             {product.promotionBadge}
@@ -61,7 +62,6 @@ const ProductItem: React.FC<Props> = ({ product, getSelectedProducts }) => {
             <span className='out-of-stock'>Out of stock</span>
           )}
         </span>
-        {/* <span>{product.lowOnStock}</span> */}
       </div>
     </div>
   );

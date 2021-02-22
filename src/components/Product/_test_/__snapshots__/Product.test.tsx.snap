@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When Address Mounts Matches snapshot 1`] = `
+<div
+  className="product"
+>
+  <span
+    className="product__checkBox"
+  >
+    <input
+      checked={false}
+      className="remove-checkbox"
+      id="1"
+      name="1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </span>
+  <div
+    className="product__img-wrapper"
+  >
+    <img
+      alt="Dress 1"
+      className="sc-bdfBwQ iBymIc"
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+    />
+    <div
+      className="product__promotionBadge"
+    >
+      30% OFF
+    </div>
+  </div>
+  <div
+    className="product__info"
+  >
+    <div
+      className="product__info--name"
+    >
+      Dress 1
+    </div>
+    <div
+      className="product__info--price"
+    >
+      £
+      12
+       
+      <span>
+        £
+        15
+      </span>
+    </div>
+    <div>
+      <span
+        className="in-stock"
+      >
+        127
+         in stock
+      </span>
+    </div>
+    <span>
+      <span
+        className="out-of-stock"
+      >
+        Out of stock
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`When ProdcutItem Mounts Matches snapshot 1`] = `
+<div
+  className="product"
+>
+  <span
+    className="product__checkBox"
+  >
+    <input
+      checked={false}
+      className="remove-checkbox"
+      id="1"
+      name="1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </span>
+  <div
+    className="product__img-wrapper"
+  >
+    <img
+      alt="Dress 1"
+      className="sc-bdfBwQ iBymIc"
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+    />
+    <div
+      className="product__promotionBadge"
+    >
+      30% OFF
+    </div>
+  </div>
+  <div
+    className="product__info"
+  >
+    <div
+      className="product__info--name"
+    >
+      Dress 1
+    </div>
+    <div
+      className="product__info--price"
+    >
+      £
+      12
+       
+      <span>
+        £
+        15
+      </span>
+    </div>
+    <div>
+      <span
+        className="in-stock"
+      >
+        127
+         in stock
+      </span>
+    </div>
+    <span>
+      <span
+        className="out-of-stock"
+      >
+        Out of stock
+      </span>
+    </span>
+  </div>
+</div>
+`;
